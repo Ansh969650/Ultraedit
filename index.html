@@ -15,7 +15,7 @@
             <div class="logo">
                 <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="Ultraedit logo">
             </div>
-            <button class="navbar" aria-controls="nav-menu" aria-expanded="false">
+            <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -37,7 +37,7 @@
     <main>
         <section class="content">
             <span>Download <b>UltraEdit</b> for Windows Reviews <img width="34"
-                    src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""> </span>
+                    src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt="Ratings icon"> </span>
             <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
                 editor</p>
             <button class="btn">Download Mac or Linux version</button>
@@ -46,7 +46,7 @@
 
         <section class="second">
             <div class="download">
-                <img src="https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png" alt="">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png" alt="UltraEdit application icon">
                 <span>Download UltraEdit </span>
                 <span class="small">v2025.0.0.35 (released 2025-07-29) | Latest changes</span>
             </div>
@@ -108,13 +108,14 @@
                     <button class="btn btn2 blue">Download 32-bit</button>
                     <button class="btn btn2 green">Download 64-bit</button>
                 </div>
+            </div>
         </section>
 
     </main>
  
        <script>
             (function () {
-                const toggle = document.querySelector('.navbar');
+                const toggle = document.querySelector('.nav-toggle');
                 const menu = document.getElementById('nav-menu');
                 if (!toggle || !menu) return;
                 toggle.addEventListener('click', function () {

@@ -30,7 +30,7 @@
       list-style: none;
   }
 
-  .navbar {
+  .nav-toggle {
       display: none;
       background: transparent;
       border: none;
@@ -38,7 +38,7 @@
       padding: 6px;
   }
 
-  .navbar .bar {
+  .nav-toggle .bar {
       display: block;
       width: 24px;
       height: 3px;
